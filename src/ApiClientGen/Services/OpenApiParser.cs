@@ -13,7 +13,8 @@ public class OpenApiParser : IApiSchemaParser
         {
             Name = op.Operation.OperationId,
             Path = op.Path,
-            HttpMethod = op.Method.ToString()
+            HttpMethod = op.Method.ToString(),
+            Type = "REST"  // For OpenAPI, we're working with RESTful endpoints
         });
     }
 }

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiClientGen", "src\ApiClientGen\ApiClientGen.csproj", "{23573B93-8719-4DFE-AC2F-6951760206E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiClientGen.Demo", "demo\ApiClientGen.Demo\ApiClientGen.Demo.csproj", "{7F95DF5A-CB3C-4015-8D7E-6322CD2AAAFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{23573B93-8719-4DFE-AC2F-6951760206E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23573B93-8719-4DFE-AC2F-6951760206E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23573B93-8719-4DFE-AC2F-6951760206E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F95DF5A-CB3C-4015-8D7E-6322CD2AAAFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F95DF5A-CB3C-4015-8D7E-6322CD2AAAFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F95DF5A-CB3C-4015-8D7E-6322CD2AAAFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F95DF5A-CB3C-4015-8D7E-6322CD2AAAFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
